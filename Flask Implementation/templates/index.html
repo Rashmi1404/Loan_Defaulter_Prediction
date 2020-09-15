@@ -17,44 +17,44 @@
   <form action="{{ url_for('predict')}}"method="post">
   <b>
     <table>
+      <label for="Product_Category_1">Choose a Product Category:</label>
+<select id="Product_Category_1" name="Product_Category_1">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+ <option value="5">5</option>
+ <option value="6">6</option>
+ <option value="7">7</option>
+ <option value="8">8</option>
+ <option value="9">9</option>
+ <option value="10">10</option>
+ <option value="11">11</option>
+ <option value="12">12</option>
+  <option value="13">13</option>
+  <option value="14">14</option>
+</select>
       <tr>
-        <td>Zip:</td>
-        <td><input type="text" name="Zip" required="required"></td>
+        <td>Product_Category_2:</td>
+        <td><input type="text" name="Product_Category_2" required="required"></td>
       </tr>
       <tr>
-        <td>CCSC:</td>
-        <td><input type="text" name="CCSC" required="required"></td>
+        <td>City_Category:</td>
+        <td><input type="text" name="City_Category" required="required"></td>
       </tr>
       <tr>
-        <td>ApprovalFY:</td>
-        <td><input type="text" name="ApprovalFY" required="required"></td>
+        <td>Gender:</td>
+        <td><input type="text" name="Gender" required="required"></td>
       </tr>
       <tr>
-        <td>Term:</td>
-        <td><input type="text" name="Term" required="required"></td>
+        <td>Occupation:</td>
+        <td><input type="text" name="Occupation" required="required"></td>
       </tr>
       <tr>
-        <td>UrbanRural:</td>
-        <td><input type="text" name="UrbanRural" required="required"></td>
+        <td>Age:</td>
+        <td><input type="text" name="Age" required="required"></td>
       </tr>
-      <tr>
-        <td>LowDoc:</td>
-        <td><input type="text" name="LowDoc" required="required"></td>
-      </tr>
-      <tr>
-        <td>DisbursementGross:</td>
-        <td><input type="text" name="DisbursementGross" required="required"></td>
-      </tr>
-      <tr>
-        <td>GrAppv:</td>
-        <td><input type="text" name="GrAppv" required="required"></td>
-      </tr>
-      <tr>
-        <td>SBA_Appv:</td>
-        <td><input type="text" name="SBA_Appv" required="required"></td>
-      </tr>
-    </table>
-
+      
 <br><button type="submit" class="btn btn-primary" id="predict" style="height: 50px;width: 100px"><b>Predict</b></button>
 </form>
 
